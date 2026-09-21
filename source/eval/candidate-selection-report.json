@@ -1,0 +1,182 @@
+{
+  "Qwen2.5-0.5B-Instruct-q4f16_1-MLC": {
+    "means": {
+      "criticalRecall": 1,
+      "usefulPrecision": 0.8866666666666667,
+      "priorityHitRate": 1
+    },
+    "aiSuccessRate": 0.9,
+    "perCase": [
+      {
+        "id": "case-01",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 0.4,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-02",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-03",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-04",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-05",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-06",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-07",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 0.8,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-08",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 0.6666666666666666,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-09",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-10",
+        "mode": "fallback",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      }
+    ]
+  },
+  "Qwen2.5-7B-Instruct-q4f16_1-MLC": {
+    "means": {
+      "criticalRecall": 1,
+      "usefulPrecision": 0.8866666666666667,
+      "priorityHitRate": 1
+    },
+    "aiSuccessRate": 0.9,
+    "perCase": [
+      {
+        "id": "case-01",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 0.4,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-02",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-03",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-04",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-05",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-06",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-07",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 0.8,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-08",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 0.6666666666666666,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-09",
+        "mode": "local-ai",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      },
+      {
+        "id": "case-10",
+        "mode": "fallback",
+        "warningCount": 0,
+        "criticalRecall": 1,
+        "usefulPrecision": 1,
+        "priorityHitRate": 1
+      }
+    ]
+  }
+}

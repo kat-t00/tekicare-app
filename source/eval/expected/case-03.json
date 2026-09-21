@@ -1,0 +1,21 @@
+{
+  "mustNoticeConcepts": ["cognition", "family", "medication"],
+  "usefulCareItems": [
+    "V30",
+    "V40",
+    "V41",
+    "V42",
+    "V12",
+    "V13",
+    "V07",
+    "V43",
+    "V03",
+    "V09"
+  ],
+  "forbiddenClaims": [
+    "娘が毎日訪問している",
+    "糖尿病がある",
+    "デイサービスを利用している"
+  ],
+  "expectedAssessment23": [10, 12, 13, 21]
+}

@@ -1,0 +1,104 @@
+{
+  "engine": "fallback",
+  "scope": "10 synthetic fixtures; non-clinical regression; exact-source fact preservation only",
+  "means": {
+    "criticalRecall": 1,
+    "usefulPrecision": 0.8866666666666667,
+    "priorityHitRate": 1,
+    "assessment23Accuracy": 0.9333333333333332,
+    "unsupportedClaimRate": 0,
+    "traceCoverage": 1
+  },
+  "cases": [
+    {
+      "id": "case-01",
+      "criticalRecall": 1,
+      "usefulPrecision": 0.4,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 0.6666666666666666,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-02",
+      "criticalRecall": 1,
+      "usefulPrecision": 1,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 1,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-03",
+      "criticalRecall": 1,
+      "usefulPrecision": 1,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 1,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-04",
+      "criticalRecall": 1,
+      "usefulPrecision": 1,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 1,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-05",
+      "criticalRecall": 1,
+      "usefulPrecision": 1,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 1,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-06",
+      "criticalRecall": 1,
+      "usefulPrecision": 1,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 1,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-07",
+      "criticalRecall": 1,
+      "usefulPrecision": 0.8,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 1,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-08",
+      "criticalRecall": 1,
+      "usefulPrecision": 0.6666666666666666,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 0.6666666666666666,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-09",
+      "criticalRecall": 1,
+      "usefulPrecision": 1,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 1,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    },
+    {
+      "id": "case-10",
+      "criticalRecall": 1,
+      "usefulPrecision": 1,
+      "priorityHitRate": 1,
+      "assessment23Accuracy": 1,
+      "unsupportedClaimRate": 0,
+      "traceCoverage": 1
+    }
+  ]
+}

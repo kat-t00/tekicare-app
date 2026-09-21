@@ -1,0 +1,10 @@
+{
+  "mustNoticeConcepts": ["medication", "strength"],
+  "usefulCareItems": ["V12", "V13", "V06", "V07", "V43"],
+  "forbiddenClaims": [
+    "娘が毎日訪問している",
+    "糖尿病がある",
+    "デイサービスを利用している"
+  ],
+  "expectedAssessment23": [10, 12]
+}

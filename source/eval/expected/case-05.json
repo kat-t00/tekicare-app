@@ -1,0 +1,10 @@
+{
+  "mustNoticeConcepts": ["nutrition", "oral"],
+  "usefulCareItems": ["V20", "V23", "V22", "V07", "V43"],
+  "forbiddenClaims": [
+    "娘が毎日訪問している",
+    "糖尿病がある",
+    "デイサービスを利用している"
+  ],
+  "expectedAssessment23": [18, 19]
+}

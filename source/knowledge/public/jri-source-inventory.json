@@ -1,0 +1,154 @@
+[
+  {
+    "title": "令和7年度改訂版・基本ケア及び疾患別ケア",
+    "url": "https://www.jri.co.jp/file/column/opinion/pdf/2026/0330_tekisetsunacare_r7.pdf",
+    "sha256": "50e7a068e84a833bc5f4cf99ddcb81804432635f0852aff963922d955d247e31",
+    "bytes": 13651137,
+    "role": "最新版本文・付録",
+    "versionNote": "本文は令和7年度改訂版。巻末に旧概要版・手引きを収録。"
+  },
+  {
+    "title": "基本ケア 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2kihoncare.pdf",
+    "sha256": "494eb8f7d425e9438380f7d3e42afcb4c3fbbd36b448f97c84c4574cabd56459",
+    "bytes": 1042162,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "基本ケア ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/230403_kihoncare.pdf",
+    "sha256": "9bb8c9e9d22702334c07c875af1de206e869515e1f002f5f80fb2f978e4de332",
+    "bytes": 1480571,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "脳血管疾患Ⅰ期 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2noukekkan_I.pdf",
+    "sha256": "7b34939469dc631b0b8f213a8cbe4f0b2796177290b2a18e591e682b803f2524",
+    "bytes": 825471,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "脳血管疾患Ⅰ期 ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/241206_noukekanshikkan1.pdf",
+    "sha256": "abc409be0762ff23083045d416648303f5b8e0dfc4dba0d45cd3cf767a1e67e8",
+    "bytes": 882064,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "脳血管疾患Ⅱ期 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2noukekkan_II.pdf",
+    "sha256": "ee4d19fe2d8d95ba47c6bb81afa1a40f4451205287735b922023c58eb150e82e",
+    "bytes": 847598,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "脳血管疾患Ⅱ期 ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/241206_noukekanshikkan2.pdf",
+    "sha256": "90974a9f7ebb6bc8dd6b44f5c511f4d7915d6e0f5c6c9d96129776223797532a",
+    "bytes": 909112,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "大腿骨頸部骨折Ⅰ期 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2daitaikotsu_I.pdf",
+    "sha256": "ea8e02c2d70f9f45f5c6fc07bc9111e8b0351ea073e72de735159debb1e494e0",
+    "bytes": 616105,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "大腿骨頸部骨折Ⅰ期 ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/241206_daitaikotsukeibukossetsu1.pdf",
+    "sha256": "e6aaf0be43f2a44391394ab002f38dd9d9718534f81c48bed93fbbe5d5583021",
+    "bytes": 728195,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "大腿骨頸部骨折Ⅱ期 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2daitaikotsu_II.pdf",
+    "sha256": "3c574c0b298b528aa6abeedb9315c5317f1f7a2e5e9c4095a460d2333df36cd4",
+    "bytes": 604799,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "大腿骨頸部骨折Ⅱ期 ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/241206_daitaikotsukeibukossetsu2.pdf",
+    "sha256": "7dcd6ff013502fd4b9caef9af4e510de4593a185ed6495d6ca9ca4a7972725eb",
+    "bytes": 681532,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "心疾患Ⅰ期 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2sinsikkan_I.pdf",
+    "sha256": "f354742247df35fb894227c972f635a80042dd90ed39e2e95234b68ecda8fe5c",
+    "bytes": 817367,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "心疾患Ⅰ期 ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/241206_shinsikkan1.pdf",
+    "sha256": "4bae48735597a3868c6d355bc0b8d209538357fa4597fd1ffb647f49a02928f9",
+    "bytes": 996993,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "心疾患Ⅱ期 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2sinsikkan_II.pdf",
+    "sha256": "1b780f6ffca41b64e0c23194bc94ddfcfa80e2b29723fe0e709d1aec14948a78",
+    "bytes": 846351,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "心疾患Ⅱ期 ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/241206_shinsikkan2.pdf",
+    "sha256": "c434068f3c3425dcc4def940006d49d9c8dc4742f46281a15c1dab309dafce46",
+    "bytes": 987983,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "認知症 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2ninchisho.pdf",
+    "sha256": "55bc335fd65bfd119bb7afb0978013534245b416be77627fd86925d040606155",
+    "bytes": 1135189,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "認知症 ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/241206_ninchisho.pdf",
+    "sha256": "5311eea930c686e985368d30ab641bf914c9c073c4fe99fde8bc23b5c4d40a11",
+    "bytes": 1274479,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "誤嚥性肺炎の予防 一覧表版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/column/opinion/pdf/210414_r2goensei2.pdf",
+    "sha256": "da8fb84d34e8019fc2bb1dc9d2ccf97083a87b26e602561afc95c526d5049a8f",
+    "bytes": 707439,
+    "role": "概要一覧表",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  },
+  {
+    "title": "誤嚥性肺炎の予防 ページ分割版（PDF）",
+    "url": "https://www.jri.co.jp/MediaLibrary/file/pdf/service/special/content11/corner113/241206_goenseihaienyobo.pdf",
+    "sha256": "79a63af0ee67a007b67b8c0337667f7f1e2f3dc8cef65a956cc25d5112ed5329",
+    "bytes": 803416,
+    "role": "概要ページ分割版",
+    "versionNote": "概要版。最新版本文の番号・ページと区別して照合。"
+  }
+]

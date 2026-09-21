@@ -1,0 +1,9 @@
+node_modules/
+dist/
+knowledge/local/*
+!knowledge/local/.gitkeep
+.env*
+*.tsbuildinfo
+playwright-report/
+test-results/
+.DS_Store

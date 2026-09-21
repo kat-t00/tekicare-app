@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-09-17",
+  "assessmentVersion": "令和5年10月16日改正・23項目（Vol.1178）",
+  "careVersion": "令和7年度改訂版（2026年3月31日）",
+  "sources": [
+    {
+      "id": "mhlw-current",
+      "title": "厚生労働省・介護保険最新情報",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/kaigo_koureisha/index_00010.html",
+      "kind": "links",
+      "filter": "課題分析|適切なケアマネジメント|介護サービス計画書"
+    },
+    {
+      "id": "mhlw-archive",
+      "title": "厚生労働省・関連通知の掲載一覧",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/kaigo_koureisha/index_00029.html",
+      "kind": "links",
+      "filter": "課題分析|適切なケアマネジメント|介護サービス計画書"
+    },
+    {
+      "id": "jri-materials",
+      "title": "日本総研・本編と項目一覧",
+      "url": "https://www.jri.co.jp/service/special/content11/corner113/caremanagement/07/",
+      "kind": "links",
+      "filter": "改訂版|基本ケア|一覧表版|ページ分割版"
+    },
+    {
+      "id": "assessment-pdf",
+      "title": "課題分析標準項目・改正通知",
+      "url": "https://www.mhlw.go.jp/content/001157205.pdf",
+      "kind": "document"
+    },
+    {
+      "id": "care-pdf",
+      "title": "適切なケアマネジメント手法・令和7年度改訂版",
+      "url": "https://www.jri.co.jp/file/column/opinion/pdf/2026/0330_tekisetsunacare_r7.pdf",
+      "kind": "document"
+    }
+  ]
+}

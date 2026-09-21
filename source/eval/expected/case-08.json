@@ -1,0 +1,10 @@
+{
+  "mustNoticeConcepts": ["intention", "family"],
+  "usefulCareItems": ["V01", "V04", "V40", "V41", "V42"],
+  "forbiddenClaims": [
+    "娘が毎日訪問している",
+    "糖尿病がある",
+    "デイサービスを利用している"
+  ],
+  "expectedAssessment23": [7, 21, 22]
+}

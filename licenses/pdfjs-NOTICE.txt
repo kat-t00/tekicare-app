@@ -1,0 +1,6 @@
+PDF.js (pdfjs-dist 5.4.624)
+Copyright Mozilla Foundation and PDF.js contributors.
+https://mozilla.github.io/pdf.js/
+Licensed under the Apache License, Version 2.0; see pdfjs-Apache-2.0.txt.
+The application loads and renders the user's selected PDF locally.
+The official care-management PDF is not included in this distribution.
