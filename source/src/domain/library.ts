@@ -76,7 +76,7 @@ const topics: Record<string, { group: string; page: number }> = {
   cognition: { group: "本人の思い・意思決定", page: 15 },
   emotion: { group: "本人の思い・意思決定", page: 43 },
   social: { group: "暮らし・役割", page: 95 },
-  transition: { group: "家族・支える人", page: 360 },
+  transition: { group: "身体の状態・日常生活", page: 59 },
   emergency: { group: "本人の思い・意思決定", page: 39 },
   family: { group: "家族・支える人", page: 99 },
   support: { group: "家族・支える人", page: 108 },
