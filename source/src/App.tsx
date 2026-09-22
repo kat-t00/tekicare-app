@@ -4,6 +4,7 @@ import { confirmationPlan } from "./domain/confirmation-plan";
 import { originalLabel } from "./domain/display-labels";
 import UsageGuide from "./components/UsageGuide";
 import MascotIntro from "./components/MascotIntro";
+import tekicareKun from "./assets/tekicare-kun.png";
 import TrainingReview from "./components/TrainingReview";
 import { trainingReview } from "./domain/training-review";
 import OfficialCare from "./components/OfficialCare";
@@ -468,7 +469,7 @@ export default function App() {
             title="適ケアくん"
             onClick={() => setMascotOpen(true)}
           >
-            <img src="/tekicare-kun.png" alt="" />
+            <img src={tekicareKun} alt="" />
           </button>
         </div>
         <div className="header-right">

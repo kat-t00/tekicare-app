@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import tekicareKun from "../assets/tekicare-kun.png";
 
 export default function MascotIntro({ onClose }: { onClose: () => void }) {
   const dialog = useRef<HTMLDialogElement>(null);
@@ -22,7 +23,7 @@ export default function MascotIntro({ onClose }: { onClose: () => void }) {
       }}
     >
       <section className="mascot-intro">
-        <img src="/tekicare-kun.png" alt="適ケアくん" />
+        <img src={tekicareKun} alt="適ケアくん" />
         <p>
           あ、見つかっちゃった。ぼく、適ケアくんだ。ケアマネジメントってむずかしーよな。でもな、ぼくみたいな
           "もやもや"のなかに、"にーず"とか"おもい"ってのがあるみたいだ。だからぼくは、このもやもやの真ん中で、みてるぞ。おいらが、適ケアくんだ。よろしくな。
