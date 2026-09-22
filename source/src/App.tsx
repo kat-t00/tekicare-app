@@ -3,6 +3,7 @@ import { supportsInsightGeneration } from "./engines/ai-insights";
 import { confirmationPlan } from "./domain/confirmation-plan";
 import { originalLabel } from "./domain/display-labels";
 import UsageGuide from "./components/UsageGuide";
+import MascotIntro from "./components/MascotIntro";
 import TrainingReview from "./components/TrainingReview";
 import { trainingReview } from "./domain/training-review";
 import OfficialCare from "./components/OfficialCare";
@@ -155,6 +156,7 @@ export default function App() {
   const pendingDrafts = useRef<AssessmentDrafts>({});
   const [draftInputChanged, setDraftInputChanged] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
+  const [mascotOpen, setMascotOpen] = useState(false);
   const hasDrafts = () => Object.keys(pendingDrafts.current).length > 0;
   const confirmReplace = () =>
     !hasDrafts() ||
@@ -443,22 +445,32 @@ export default function App() {
   return (
     <>
       <header className="header">
-        <a
-          className="brand"
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            setTab(0);
-          }}
-        >
-          <span className="brand-mark">
-            <BookOpen size={24} />
-          </span>
-          <span>
-            適ケアくん<small>適切なケアマネジメント手法・活用ツール</small>
-          </span>
-          <span className="beta">β</span>
-        </a>
+        <div className="brand-row">
+          <a
+            className="brand"
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              setTab(0);
+            }}
+          >
+            <span className="brand-mark">
+              <BookOpen size={24} />
+            </span>
+            <span>
+              適ケアくん<small>適切なケアマネジメント手法・活用ツール</small>
+            </span>
+            <span className="beta">β</span>
+          </a>
+          <button
+            className="mascot-trigger"
+            aria-label="適ケアくんの自己紹介を見る"
+            title="適ケアくん"
+            onClick={() => setMascotOpen(true)}
+          >
+            <img src="/tekicare-kun.png" alt="" />
+          </button>
+        </div>
         <div className="header-right">
           <button onClick={() => setHelpOpen(true)}>使い方</button>
           <ThemeToggle />
@@ -495,6 +507,7 @@ export default function App() {
         </a>
       </header>
       {helpOpen && <UsageGuide tab={tab} onClose={() => setHelpOpen(false)} />}
+      {mascotOpen && <MascotIntro onClose={() => setMascotOpen(false)} />}
       <div className="workspace">
         <aside className="sidebar">
           <div>

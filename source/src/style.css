@@ -3618,6 +3618,38 @@ body:has(.assessment-workspace) .toast {
     top: -16px;
   }
 }
+.mascot-dialog {
+  width: min(420px, calc(100% - 28px));
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+}
+.mascot-dialog::backdrop {
+  background: #15253699;
+}
+.mascot-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  padding: 24px;
+}
+.mascot-intro img {
+  width: 140px;
+  height: auto;
+}
+:root[data-theme="dark"] .mascot-intro img {
+  filter: invert(1);
+}
+.mascot-intro p {
+  margin: 0;
+  line-height: 1.7;
+}
+.mascot-intro button {
+  padding: 8px 22px;
+}
 
 /* タイトルと操作を揃え、署名には独立した余白を設ける。 */
 .header {
@@ -3631,9 +3663,42 @@ body:has(.assessment-workspace) .toast {
   row-gap: 12px;
   align-items: center;
 }
-.header .brand {
+.header .brand-row {
   grid-area: brand;
   min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header .brand {
+  min-width: 0;
+}
+.mascot-trigger {
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 50%;
+}
+.mascot-trigger img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.mascot-trigger:hover img {
+  transform: scale(1.08);
+}
+.mascot-trigger img {
+  transition: transform 0.15s ease;
+}
+.mascot-trigger:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+:root[data-theme="dark"] .mascot-trigger img {
+  filter: invert(1);
 }
 .header-right {
   grid-area: actions;
