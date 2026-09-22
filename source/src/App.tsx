@@ -97,7 +97,8 @@ export default function App() {
     [profile, setProfile] = useState("Lite"),
     [ai, setAi] = useState(false),
     [ready, setReady] = useState(false),
-    [modelBusy, setModelBusy] = useState(false);
+    [modelBusy, setModelBusy] = useState(false),
+    [modelCached, setModelCached] = useState(false);
   const controller = useRef<AbortController | null>(null),
     engine = useRef<LocalEngine | null>(null),
     dialog = useRef<HTMLDialogElement>(null),
@@ -118,6 +119,23 @@ export default function App() {
       setGpu(false);
     }
   }, []);
+  useEffect(() => {
+    navigator.storage?.persist?.().catch(() => {});
+  }, []);
+  useEffect(() => {
+    if (!model) {
+      setModelCached(false);
+      return;
+    }
+    let active = true;
+    import("@mlc-ai/web-llm")
+      .then(({ hasModelInCache }) => hasModelInCache(model))
+      .then((cached) => active && setModelCached(cached))
+      .catch(() => active && setModelCached(false));
+    return () => {
+      active = false;
+    };
+  }, [model]);
   useEffect(
     () => () => {
       controller.current?.abort();
@@ -1089,9 +1107,9 @@ export default function App() {
                       </p>
                     </details>
                     <p className="small muted">
-                      初回取得の目安：
-                      {models.find((m) => m.id === model)?.downloadLabel}
-                      ＋文章を照合するためのデータ約120MB。初回はインターネット接続と保存容量が必要です。データはこのブラウザに保存されます。
+                      {modelCached
+                        ? "このモデルはこの端末に保存済みです。準備ボタンを押しても再ダウンロードはされません（ブラウザの保存領域が消去された場合を除く）。"
+                        : `初回取得の目安：${models.find((m) => m.id === model)?.downloadLabel}＋文章を照合するためのデータ約120MB。初回はインターネット接続と保存容量が必要です。データはこのブラウザに保存されます。`}
                     </p>
                     <button
                       className="primary"
